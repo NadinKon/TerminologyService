@@ -1,0 +1,47 @@
+[
+    {
+        "model": "refbooks.refbook",
+        "pk": 1,
+        "fields": {
+            "code": "MS1",
+            "name": "Специальности медицинских работников",
+            "description": "Описание справочника"
+        }
+    },
+    {
+        "model": "refbooks.refbookversion",
+        "pk": 1,
+        "fields": {
+            "refbook": 1,
+            "version": "1.0",
+            "start_date": "2022-01-01"
+        }
+    },
+    {
+        "model": "refbooks.refbookelement",
+        "pk": 1,
+        "fields": {
+            "version": 1,
+            "code": "1",
+            "value": "Врач-терапевт"
+        }
+    },
+    {
+        "model": "refbooks.refbookelement",
+        "pk": 2,
+        "fields": {
+            "version": 1,
+            "code": "2",
+            "value": "Травматолог-ортопед"
+        }
+    },
+    {
+        "model": "refbooks.refbookelement",
+        "pk": 3,
+        "fields": {
+            "version": 1,
+            "code": "3",
+            "value": "Хирург"
+        }
+    }
+]
